@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <link href="style.css" rel="stylesheet">
+
+    <title>Advanced Search</title>
+</head>
+
+<body>
+    <div class="flex-area">
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="image-search.html">Image Search</a>
+            <a href="advanced-search.html">Advanced Search</a>
+        </nav>
+
+        <div class="logo">
+            <h1>Advanced Google Search</h1>
+            <p style="font-size: 15px;"> Find Pages With:</p>
+        </div>
+
+        <form class="search" action="https://google.com/search">
+            <div class="searchbox">
+                all these words:<input type="search" inputmode="search" name="as_q">
+                this exact word or phrase:<input type="search" inputmode="search" name="as_epq">
+                any of these words:<input type="search" inputmode="search" name="as_oq">
+                none of these words:<input type="search" inputmode="search" name="as_eq">
+            </div>
+            
+            <div class="search-btn">
+                <center>
+                    <input type="submit" value="Advanced Google Search">
+                </center>
+            </div>
+        </form>
+        
+        <footer>
+            <p>
+                A CS50 Student Project by <a href="https://gitlab.com/liucreator">@liucreator</a>, Color Theme: <a href="https://draculatheme.com/">Dracula</a>
+            </p>
+        </footer>
+    </div>
+</html>
