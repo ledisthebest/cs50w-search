@@ -46,7 +46,7 @@ html, body {
 
 .search {
     width: auto;
-    max-width: 600px;
+    //max-width: 600px;
     position: relative;
     margin: 0 auto;
 }
@@ -55,13 +55,15 @@ html, body {
     display: flex;
     min-height: 44px;  // for touch user, google recommended 44px minimum
 
-    width: auto;
-    width: 600px;
+    max-width: 600px;
+    width: 80vw;
+    justify-items: center;
 
     input {
         @extend .searchbox;
         font-size: 18px;
         padding: 0 20px;
+        position:absolute;
 
         color: $text-color;
         background-color: $line-color;

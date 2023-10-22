@@ -32,7 +32,6 @@ html, body {
 
 .search {
   width: auto;
-  max-width: 600px;
   position: relative;
   margin: 0 auto;
 }
@@ -40,12 +39,14 @@ html, body {
 .searchbox, .searchbox input {
   display: flex;
   min-height: 44px;
-  width: auto;
-  width: 600px;
+  max-width: 600px;
+  width: 80vw;
+  justify-items: center;
 }
 .searchbox input {
   font-size: 18px;
   padding: 0 20px;
+  position: absolute;
   color: #f8f8f2;
   background-color: #1d1e26;
   border: 2px solid #ff79c6;
